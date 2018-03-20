@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1520245331 source:/home/grafiters/Documents/pdp/tugas 6/main.c
+	"header.h"
+
+1520245350 /home/grafiters/Documents/pdp/tugas 6/header.h
+	<stdio.h>
+	<stdlib.h>
+

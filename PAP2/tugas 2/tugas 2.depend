@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1520844110 source:/home/grafiters/Documents/PAP/PAP 2/tugas 2/main.c
+	"header.h"
+
+1520843965 /home/grafiters/Documents/PAP/PAP 2/tugas 2/header.h
+	<stdio.h>
+	<stdlib.h>
+
+1520843994 source:/home/grafiters/Documents/PAP/PAP 2/tugas 2/pustaka.c
+	"header.h"
+

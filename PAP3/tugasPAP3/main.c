@@ -1,5 +1,12 @@
 #include "header.h"
 
+/**
+    Nama       = Bayu Grafit Nur Alfian
+    NIM        = A11.2017.10284
+    Kelomopok  = A11.4207
+    TUGAS PAP 3
+*/
+
 int arr1[]={10,44,'\0',2,'\0'};
 int arr2[]={3,44,38,5,47};
 int arr3[]={3,44,38,5,47};

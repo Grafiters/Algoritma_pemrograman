@@ -1,5 +1,12 @@
 #include "header.h"
 
+/**
+    Nama        = Bayu Grafit Nur Alfian
+    NIM         = A11.2017.10284
+    Kelomok     = 4207
+    TUGAS PAP 3
+*/
+
 int count_array(int data[], int jml_data){
     int i, jumlah=0;
     for(i=0;i<jml_data;i++){

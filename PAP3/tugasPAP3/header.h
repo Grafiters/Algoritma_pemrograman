@@ -1,6 +1,13 @@
 #ifndef HEADER_H_INCLUDED
 #define HEADER_H_INCLUDED
 
+/**
+    Nama        = Bayu Grafit Nur Alfian
+    NIM         = A11.2017.10284
+    Kelompok    = A11.4207
+    TUGAS PAP 3
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 /**

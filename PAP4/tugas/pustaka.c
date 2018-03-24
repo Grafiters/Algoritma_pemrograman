@@ -55,9 +55,22 @@ void selection_short2(int data[], int jml_data){
             if(query!=0){
                 cetak_array(data,jml_data);
             }
+        puts("");
         }
         i++;
-        puts("");
+    }
+}
+
+int get_median(int data[], int jml_data){
+    int i, jumlah= 0;
+    for(i=0;i<jml_data;i++){
+        jumlah++;
+        if(jumlah%2!=0){
+            if(jumlah > 1 && jumlah < jml_data){
+            printf("\n");
+                printf("\nNilai tengah adalah %d\n", data[i]);
+            }
+        }
     }
 }
 

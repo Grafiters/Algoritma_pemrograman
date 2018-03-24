@@ -7,6 +7,7 @@
 void compress_array(int data[], int jml_data);
 void selection_short1(int data[], int jml_data);
 void selection_short2(int data[], int jml_data);
+int get_median(int data[], int jml_data);
 
 void cetak_array(int data[], int jml_data);
 

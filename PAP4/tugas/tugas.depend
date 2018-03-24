@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1521831259 source:/home/grafiters/Documents/PAP/PAP4/tugas/main.c
+1521888611 source:/home/grafiters/Documents/PAP/PAP4/tugas/main.c
 	"pustaka.h"
 
-1521829761 /home/grafiters/Documents/PAP/PAP4/tugas/pustaka.h
+1521885507 /home/grafiters/Documents/PAP/PAP4/tugas/pustaka.h
 	<stdio.h>
 	<stdlib.h>
 
-1521831129 source:/home/grafiters/Documents/PAP/PAP4/tugas/pustaka.c
+1521888620 source:/home/grafiters/Documents/PAP/PAP4/tugas/pustaka.c
 	"pustaka.h"
 

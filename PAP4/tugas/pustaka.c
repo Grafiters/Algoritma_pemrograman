@@ -62,14 +62,13 @@ void selection_short2(int data[], int jml_data){
 }
 
 int get_median(int data[], int jml_data){
-    int i, jumlah= 0;
+    int i, jumlah= 0, med=0;
     for(i=0;i<jml_data;i++){
         jumlah++;
-        if(jumlah%2!=0){
-            if(jumlah > 1 && jumlah < jml_data){
-            printf("\n");
-                printf("\nNilai tengah adalah %d\n", data[i]);
-            }
+        if(jumlah%2==0){
+            med=data[jml_data/2];
+            printf("\n nilai tengah adalah %d",med);
+            break;
         }
     }
 }

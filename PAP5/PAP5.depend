@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1522430336 source:/home/grafiters/Documents/PAP/PAP5/pustaka.c
+	"pustaka.h"
+
+1522430221 /home/grafiters/Documents/PAP/PAP5/pustaka.h
+	<stdio.h>
+	<stdlib.h>
+
+1522430373 source:/home/grafiters/Documents/PAP/PAP5/main.c
+	"pustaka.h"
+

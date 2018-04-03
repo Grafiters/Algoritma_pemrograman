@@ -9,7 +9,7 @@ int list4[] = {10, 9, 8, 7, 6};
 int list5[] = {9, 12, 43, 13, 15};
 int list6[] = {12, 4, 19, 9, 22, 1};
 
-int angka, a, b;
+int angka, a, b, hasil;
 
 int main()
 {
@@ -28,6 +28,12 @@ int main()
     puts("");
     printf("Jarak antara nilai terkecil dan terbesar adalah %d", min_max_gap(list6, 6));
     puts("");
-    printf("at_least1 %s ",at_least('r', 3,"Larry Page"));
+    hasil=at_least('r', 3,"Larry Page");
+    printf("Larry Page");
+    if(hasil!=0){
+        printf(" TRUE");
+    } else {
+        printf(" FALSE");
+    }
     return 0;
 }

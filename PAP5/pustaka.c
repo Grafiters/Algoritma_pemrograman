@@ -40,18 +40,18 @@ int min_max_gap(int data[], int jml_data){
 }
 
 int at_least(char huruf, int jml, char teks[]){
-    int i=0, hitung=0;
-    strcpy(temp, teks);
-    while(temp[i]!='\0'){
-        if(temp[1]==huruf){
-            hitung++;
+    int i=0, temp=0, batas;
+    batas=strlen(teks);
+    while(teks[i]!='\0'){
+        if(teks[i]==huruf){
+            temp++;
         }
         i++;
     }
-    if(hitung==jml){
-        return 'TRUE';
-    }else{
-        return 'FALSE';
+    if(temp>=jml){
+        return 1;
+    } else {
+        return 0;
     }
 }
 

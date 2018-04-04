@@ -1,6 +1,13 @@
 #ifndef PUSTAKA_H_INCLUDED
 #define PUSTAKA_H_INCLUDED
 
+/**
+    Nama     : Bayu Grafit Nur Alfian
+    NIM      : A11.2017.10284
+    Kelompok : 4207
+    Tugas PAP 5 (created, read, and update on linux)
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,5 +1,12 @@
 #include "pustaka.h"
 
+/**
+    Nama     : Bayu Grafit Nur Alfian
+    NIM      : A11.2017.10284
+    Kelompok : 4207
+    Tugas PAP 5 (created, read, and update on linux)
+*/
+
 int sequent_search(int angka, int data[], int jml_data){
 int i=0;
     while(i<jml_data){
@@ -12,11 +19,16 @@ int i=0;
 }
 
 int is_inverse(int list1[], int list2[], int jml_data){
-    int i=0, j=0;
-    while(i<jml_data){
-
+    int i=0,hasil, batas;
+    batas=jml_data-1;
+    while(i<batas && hasil!=0){
+        hasil=1;
+        if(list1[i]!=list2[batas-1]){
+            hasil=1;
+        }
         i++;
     }
+    return hasil;
 }
 
 void min_max(int data[], int jml_data, int *min, int *max){

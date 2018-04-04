@@ -18,22 +18,36 @@ int main()
     printf("iput nilai yang dicari : "); scanf("%d", &angka);
     printf("apakah %d nilai ada pada array %d", angka, sequent_search(angka, data, 9));
 
+    puts("\n");
+    cetakarray(list1, 5);
+    puts("");
+    cetakarray(list2,5);
+    hasil=is_inverse(list1,list2,5);
+    printf("\nApakah baris 2 meruakan kebalikan dari baris ke 1 ?");
+    if (hasil!=0) {
+        printf ( "true\n" );
+    } else {
+        printf ( "false\n" );
+    }
+
     puts("");
     cetakarray(list5,5);
     puts("");
     min_max(list5, 5, &a, &b);
-    printf("a = %d b = %d", a,b);
+    printf("a = %d b = %d\n", a,b);
+
     puts("");
     cetakarray(list6, 6);
     puts("");
-    printf("Jarak antara nilai terkecil dan terbesar adalah %d", min_max_gap(list6, 6));
+    printf("Jarak antara nilai terkecil dan terbesar adalah %d\n", min_max_gap(list6, 6));
+
     puts("");
     hasil=at_least('r', 3,"Larry Page");
     printf("Larry Page");
     if(hasil!=0){
-        printf(" TRUE");
+        printf(" => TRUE");
     } else {
-        printf(" FALSE");
+        printf(" => FALSE");
     }
     return 0;
 }

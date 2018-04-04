@@ -1,5 +1,12 @@
 #include "pustaka.h"
 
+/**
+    Nama     : Bayu Grafit Nur Alfian
+    NIM      : A11.2017.10284
+    Kelompok : 4207
+    Tugas PAP 5 (created, read, and update on linux)
+*/
+
 int data[] = {12, 14, 20, 15, 22, 25, 18, 10, 27};
 int list1[] = {1, 2, 3, 4, 5};
 int list2[] = {5, 4, 3, 2, 1};

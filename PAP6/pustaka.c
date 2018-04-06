@@ -18,6 +18,26 @@ int binarysearch(int angka, int data[], int jml_data){
     return temu;
 }
 
+int search_word(char whord[], char text[]){
+    int i=0, j, k, sama;
+    int p1=strlen(text);
+    int p2=strlen(whord);
+
+    while(i<p1){
+        sama=0;
+        for(j=0,k=i;j<p2;j++,k++){
+            if(whord[j]=text[k]){
+                sama++;
+            }
+        }
+        if(sama==p2){
+            return 1;
+        }
+        i++;
+    }
+    return 0;
+}
+
 void inputarray(int data[], int jml_data){
     int i=0;
     while(i<jml_data){

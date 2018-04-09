@@ -1,21 +1,46 @@
 #include "pustaka.h"
 
-int binarysearch(int angka, int data[], int jml_data){
-    int i=0;
-    int min=0, max=jml_data-1, tengah;
-    int temu=-1;
-    while(temu==-1 && i<jml_data){
-        tengah=(min+max)/2;
-        if(data[tengah]==angka){
-            temu=tengah;
-        }else if(data[tengah]<angka){
-            min=tengah+1;
-        }else{
-            max=tengah-1;
+/**
+    Nama     : Bayu Grafit Nur Alfian
+    NIM      : A11.2017.10284
+    Kelompok : 4207
+    Tugas PAP 5 (created, read, and update on linux)
+*/
+
+void BubbleShort(int data[], int jml_data){
+    int i=0, j, temp;
+    while(i<jml_data-1){
+    j=0;
+        while(j<jml_data-1-i){
+            if(data[j]>data[j+1]){
+                temp=data[j];
+                data[j]=data[j+1];
+                data[j+1]=temp;
+            }
+            j++;
         }
         i++;
     }
-    return temu;
+}
+
+int binarysearch(int angka, int data[], int jml_data){
+    int min=0, max=jml_data-1, tengah, i=0;
+    while(min<=max){
+        while(i<=max){
+            printf("%d ", data[i]);
+            i++;
+        }
+        puts("");
+        tengah=(min+max)/2;
+        if(angka==data[tengah]){
+            return angka;
+        }else if(angka<data[tengah]){
+            max=tengah-1;
+        }else if(angka>data[tengah]){
+            min=tengah+1;
+        }
+    }
+    return -1;
 }
 
 int search_word(char whord[], char text[]){
@@ -32,10 +57,46 @@ int search_word(char whord[], char text[]){
         }
         if(sama==p2){
             return 1;
+        }else{
+            return 0;
         }
         i++;
     }
-    return 0;
+}
+
+void frequency(char text[], int jml[]){
+    int panjang=strlen(text);
+    int a=0, b;
+    char abjad='a', Abjad='A';
+    while(a<30){
+        jml[a]=0;
+        a++;
+    }
+
+    while(a<panjang){
+        abjad='a';
+        Abjad='A';
+        for(b=0;b<panjang;b++,abjad++,Abjad++){
+            if(text[a]==abjad || text[a]==Abjad){
+                jml[b]++;
+            }
+        }
+        a++;
+    }
+}
+
+int is_anagram(char text1[], char text2[]){
+    int i=0;
+    frequency(text1, jumlah1);
+    frequency(text2, jumlah2);
+    while(i<30){
+        if(jumlah1[i]==jumlah2[i]){
+            return 1;
+        }else{
+            return 0;
+        }
+        i++;
+    }
 }
 
 void inputarray(int data[], int jml_data){

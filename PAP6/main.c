@@ -33,13 +33,8 @@ int main()
     printf("Masukkan kalimat = "); scanf("%s", &text);
     printf("%s\n", text);
     printf("Masukkan kata yang ingin anda cari = "); scanf("%s", &whord);
-    hasil=search_word(whord,text);
-    if(hasil!=1){
-        hasil1="TRUE";
-    }else{
-        hasil1="FALSE";
-    }
-    printf("%s\n", hasil1);
+
+    printf("%s\n", search_word(whord,text)?"TRUE":"FALSE");
 
     puts("\n====== Tugas 3 Anagram =======");
     printf("Masukkan kalimat pertama = "); scanf("%s", &text1);

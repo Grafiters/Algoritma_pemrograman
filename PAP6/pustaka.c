@@ -49,18 +49,19 @@ int search_word(char whord[], char text[]){
     int p2=strlen(whord);
 
     while(i<p1){
-        sama=0;
+    sama=0;
         for(j=0,k=i;j<p2;j++,k++){
             if(whord[j]=text[k]){
                 sama++;
             }
         }
-        if(sama==p2){
-            return 1;
-        }else{
-            return 0;
-        }
+    if(sama==p2){
+        return 1;
+    }else{
+        return 0;
+    }
         i++;
+        break;
     }
 }
 

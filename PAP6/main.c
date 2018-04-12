@@ -25,7 +25,6 @@ int main()
     puts("");
 
     printf("Input angka yang dicari = "); scanf("%d", &angka);
-    printf("%d ", binarysearch(angka, data, jml_data));
     printf("apakah angka %d ada pada array tesebut %s", angka, binarysearch(angka,data,jml_data)?"TRUE":"FALSE");
     puts("\n");
 

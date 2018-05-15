@@ -34,6 +34,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="pustaka.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="pustaka.h" />
 		<Extensions>
 			<code_completion />
 			<debugger />

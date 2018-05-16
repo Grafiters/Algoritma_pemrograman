@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1525710013 source:/home/grafiters/Documents/tugas Kuliah/Algoritma_pemrograman/PAP7/main.c
+1525710046 source:/home/grafiters/Documents/tugas Kuliah/Algoritma_pemrograman/PAP7/main.c
 	"pustaka.h"
 
-1525709184 /home/grafiters/Documents/tugas Kuliah/Algoritma_pemrograman/PAP7/pustaka.h
+1525710075 /home/grafiters/Documents/tugas Kuliah/Algoritma_pemrograman/PAP7/pustaka.h
 	<stdio.h>
 	<stdlib.h>
 
-1525709263 source:/home/grafiters/Documents/tugas Kuliah/Algoritma_pemrograman/PAP7/pustaka.c
+1525710067 source:/home/grafiters/Documents/tugas Kuliah/Algoritma_pemrograman/PAP7/pustaka.c
 	"pustaka.h"
 

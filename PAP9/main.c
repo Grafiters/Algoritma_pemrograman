@@ -1,5 +1,12 @@
 #include "pustaka.h"
 
+/*
+    Nama     = Bayu Grafit Nur Alfian
+    Kelompok = A11.4207
+    NIM      = A11.2017.10284
+    this file created, updated, and saved on code blocks linux ubuntu budgie
+*/
+
 int main()
 {
     pecahan satu;
@@ -49,16 +56,60 @@ int main()
     puts("\n");
 
     /*tugas 9*/
-    pecahan delapan;
+    float delapan;
+    delapan = desimalPecahan(makePecahan(8,10));
+    printf("%d", delapan);
+    puts("\n");
 
     /*tugas 10*/
-    pecahan sembilan;
+    int sembilan;
+    sembilan = isEqual(makePecahan(4,9), makePecahan(8,10));
+    printPecahan(makePecahan(4,9));
+    printf(" dan ");
+    printPecahan(makePecahan(8,10));
+    if(sembilan == 1){
+        printf(" -> pecahan sama");
+    }else{
+        printf(" -> pecahan berbeda");
+    }
+    puts("\n");
 
     /*tugas 11*/
-    pecahan sepuluh;
-
+    int sepuluh;
+    sepuluh = isBigger(makePecahan(4,9), makePecahan(8,10));
+    printPecahan(makePecahan(4,9));
+    printf(" dan ");
+    printPecahan(makePecahan(8,10));
+    if(sembilan==1){
+        printf(" -> pecahan ");
+        printPecahan(makePecahan(4,9));
+        printf(" lebih besar");
+    }else{
+        printf(" -> pecahan");
+        printPecahan(makePecahan(8,10));
+        printf(" lebih besar");
+    }
+    puts("\n");
     /*tugas 12*/
-    pecahan sebelas;
+    int sebelas;
+    sebelas = isBigger(makePecahan(4,9), makePecahan(8,10));
+    printPecahan(makePecahan(4,9));
+    printf(" dan ");
+    printPecahan(makePecahan(8,10));
+    if(sembilan==1){
+        printf(" -> pecahan ");
+        printPecahan(makePecahan(8,10));
+        printf(" lebih kecil");
+    }else{
+        printf(" -> pecahan");
+        printPecahan(makePecahan(4,9));
+        printf(" lebih kecil");
+    }
+
+    puts("\n\n\n\");
+    puts("===============================");
+    printf(" I hope you all use a linux\n");
+    puts("===============================");
 
     return 0;
 }

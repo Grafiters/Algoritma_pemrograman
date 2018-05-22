@@ -1,6 +1,13 @@
 #ifndef PUSTAKA_H_INCLUDED
 #define PUSTAKA_H_INCLUDED
 
+/*
+    Nama     = Bayu Grafit Nur Alfian
+    Kelompok = A11.4207
+    NIM      = A11.2017.10284
+    this file created, updated, and saved on code blocks linux
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
